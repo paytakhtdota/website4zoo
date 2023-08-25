@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Signika&display=swap');
+
+.animals-container {
+    width: 720px;
+    min-height: 360px;
+    margin: auto;
+    margin-top: 30px;
+    
+    
+
+
+}
+
+.description-container {
+    width: 28%;
+    min-height: 320px;
+    padding-left: 3%;
+    padding-right: 2%;
+    float: left;
+
+
+
+}
+
+.img-container {
+    width: 67%;
+    height: auto;
+    float: left;
+    box-shadow: 10px 5px 5px #787878;
+}
+
+
+
+img {
+    width: 480px;
+    height: auto;
+    background-color: rgb(182, 39, 53);
+}
+
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,255,140,1) 100%);
+}
+
+header {
+    background-image: url("assests/header-bg.png");
+    min-height: 170px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#header-title-h1 {
+    font-size: 3em;
+    text-align: center;
+
+
+}
+
+#nav-container {
+
+    height: 30px;
+    text-align: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 15%, rgba(255,248,210,1) 50%, rgba(255,255,255,1) 85%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    margin: 0px 10px 10px 0;
+    font-family: 'Patua One', cursive;
+    font-size: 24px;
+
+}
+
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(255, 115, 40);
+
+  }
+
+p {
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+h2 {
+    font-family: 'Patua One', cursive;
+    letter-spacing: 1px;
+}
+
+div ul li {
+    font-family: 'Patua One', cursive;
+}
+
+section {
+    margin-top: 20px;
+}
+
+footer{
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    padding: 40px;
+}
